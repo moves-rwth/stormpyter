@@ -1,10 +1,16 @@
 # Storm tutorial at DisCoTec 2020
 
-The directory contains Jupyter notebooks for the (Storm tutorial)[https://www.discotec.org/2020/tutorials#the-probabilistic-model-checker-storm] at (DisCoTec 2020)[https://www.discotec.org/2020/]
+The directory contains Jupyter notebooks for the [Storm tutorial](https://www.discotec.org/2020/tutorials#the-probabilistic-model-checker-storm) at [DisCoTec 2020](https://www.discotec.org/2020/)
+
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/moves-rwth/stormpyter/master?filepath=tutorial_discotec2020%2Fdiscotec_storm.ipynb)
+`discotec_storm.ipynb`: an interactive presentation about the usage and features of [Storm](https://www.stormchecker.org/).
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/moves-rwth/stormpyter/master?filepath=tutorial_discotec2020%2Fdiscotec_stormpy.ipynb)
+`discotec_stormpy.ipynb`: an interactive presentation about advanced features with [stormpy](https://moves-rwth.github.io/stormpy/), the Python bindings for Storm.
+
 
 ## Installation steps
 
-1. Install Docker for your OS according to (these instructions)[https://docs.docker.com/get-docker/].
+1. Install Docker for your OS according to [these instructions](https://docs.docker.com/get-docker/).
 
 2. Download and start the Docker container from the command line:
 
@@ -39,7 +45,7 @@ Switch between presentation and the notebook with `alt+r`.
 ## Videos
 
 Videos of the tutorial are available at YouTube:
-1. (Part 1)[https://www.youtube.com/watch?v=TTfSZGiCQ3I]: "What is Storm?"
-2. (Part 2)[https://www.youtube.com/watch?v=rCgoqV5hesQ]: "Introduction to Storm"
-3. (Part 3)[https://www.youtube.com/watch?v=WR72wrvtta0]: "Advanced Features with Stormpy"
+1. [Part 1](https://www.youtube.com/watch?v=TTfSZGiCQ3I): "What is Storm?"
+2. [Part 2](https://www.youtube.com/watch?v=rCgoqV5hesQ): "Introduction to Storm"
+3. [Part 3](https://www.youtube.com/watch?v=WR72wrvtta0): "Advanced Features with Stormpy"
 
