@@ -1,13 +1,11 @@
-FROM movesrwth/stormpy:ci-release
+FROM movesrwth/stormpy:1.7.0
 MAINTAINER Matthias Volk <matthias.volk@cs.rwth-aachen.de>
 
 WORKDIR /opt
 
 # Should be already set in stormpy
 #ENV STORM_DIR=/opt/storm
-#ENV VIRTUAL_ENV=/opt/venv
 #ENV PATH="$STORM_DIR/build/bin:$PATH"
-#ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
 # Install jupyter, RISE and extensions
 RUN pip install jupyter
