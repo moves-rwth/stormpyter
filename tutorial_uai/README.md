@@ -26,7 +26,7 @@ docker run -it -p 8080:8080 --name stormpyter sjunges/stormpyter:uai22
 
 3. Open the Jupyter website which is indicated in the command line and starts with `127.0.0.1:8080/?token=...`
 
-4. On the website, open the notebook `discotec_storm.ipynb` or `discotec_stormpy.ipynb`.
+4. On the website, open the notebook `tutorial.ipynb`.
 The presentation should start automatically.
 
 
