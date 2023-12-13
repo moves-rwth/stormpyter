@@ -20,7 +20,7 @@ All commands can be executed in the presentation and will be executed in the Doc
 2. Download and start the Docker container from the command line:
 
 ```
-docker run -it -p 8080:8080 --name stormpyter volkm/stormpyter:dft23
+docker run -it -p 8080:8080 --name stormpyter mvolk/stormpyter:dft23
 ```
 (Please note that the download with >1GB might take a while.)
 
@@ -33,7 +33,7 @@ The presentation should start automatically.
 ## Manual build
 Instead of downloading the Docker container, you can also build it manually with:
 ```
-docker build -t volkm/stormpyter:dft23 -f Dockerfile .
+docker build -t mvolk/stormpyter:dft23 -f Dockerfile .
 ```
 and afterwards continue with step 3.
 
