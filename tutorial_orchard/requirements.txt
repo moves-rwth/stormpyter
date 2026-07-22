@@ -7,4 +7,4 @@ paynt==0.3.0
 pyscipopt==6.1.0
 # Jupyter extensions
 jupyterlab-spellchecker==0.8.4
-
+jupyterlab-rise==0.43.1
